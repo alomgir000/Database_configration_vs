@@ -1,0 +1,10 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'alomgir',  # just the database name
+        'USER': 'root',      # corrected key from USER_NAME to USER
+        'PASSWORD': '',      # add your MySQL password here
+        'HOST': 'localhost',
+        'PORT': '3306',      # optional, default MySQL port
+    }
+}
